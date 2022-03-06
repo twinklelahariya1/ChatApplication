@@ -21,6 +21,8 @@ class Login : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+        supportActionBar?.hide()
+
         mAuth = FirebaseAuth.getInstance()
 
         edtEmail = findViewById(R.id.email)
@@ -46,6 +48,7 @@ class Login : AppCompatActivity() {
             .addOnCompleteListener(this) { task ->
                 if (task.isSuccessful){
                     val intent  = Intent(this@Login, MainActivity::class.java)
+                    finish()
                     startActivity(intent)
                 }else{
                     Toast.makeText(this@Login, "User or password incorrect", Toast.LENGTH_SHORT).show()

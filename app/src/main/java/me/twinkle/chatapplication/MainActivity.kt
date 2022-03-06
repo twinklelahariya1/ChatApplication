@@ -9,7 +9,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
-import kotlin.jvm.internal.FunctionReference
 
 class MainActivity : AppCompatActivity() {
 

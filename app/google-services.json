@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "181042348392",
+    "project_id": "chatapplication-caa2e",
+    "storage_bucket": "chatapplication-caa2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181042348392:android:98502779e4c86a197b56dd",
+        "android_client_info": {
+          "package_name": "me.twinkle.chatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181042348392-i57v3v95aodv15cv7dma1n7ua5rtg3vq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUCS4mEfglFFX5zrj_qKvtk8sDQZl2WJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181042348392-i57v3v95aodv15cv7dma1n7ua5rtg3vq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -12,7 +12,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/txt_sentMessage"
+            android:id="@+id/txt_receiveMessage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="This is reveive message"
